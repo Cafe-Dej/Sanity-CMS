@@ -8,9 +8,9 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'wheat-capybara',
+  title: 'cafedej',
 
-  projectId: 'ludy3g4w',
+  projectId: '5dg8ejoz',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
