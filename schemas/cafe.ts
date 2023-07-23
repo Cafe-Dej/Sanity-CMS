@@ -1,4 +1,4 @@
-export const openingHours = {
+export const locations = {
   name: 'locations',
   type: 'document',
   title: 'Standorte',
@@ -6,7 +6,7 @@ export const openingHours = {
   preview: {
     select: {
       title: 'date',
-      subtitle: 'location',
+      subtitle: 'location'
     },
     prepare(selection: any) {
       const {title, subtitle} = selection
@@ -35,7 +35,7 @@ export const openingHours = {
   ]
 }
 
-export const prices = {
+export const coffes = {
   name: 'coffes',
   type: 'document',
   title: 'Kaffee Preise',
@@ -76,10 +76,13 @@ export const specialOffer = {
       of: [{type: 'block'}]
     },
     {
-      name: 'images',
+      name: 'image',
       title: 'Bilder',
       description: 'Bild des speziellen Angebots',
-      type: 'image'
+      type: 'image',
+      options: {
+        hotspot: true
+      }
     },
     {
       name: 'available',
