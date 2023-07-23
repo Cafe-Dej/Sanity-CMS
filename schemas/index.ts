@@ -1,5 +1,5 @@
-import {openingHours, specialOffer} from './cafe'
+import {openingHours, specialOffer, prices} from './cafe'
 
 export const schemaTypes = [
-  specialOffer, openingHours
+  specialOffer, openingHours, prices
 ]
