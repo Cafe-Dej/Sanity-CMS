@@ -63,12 +63,6 @@ export const specialOffer = {
   description: 'Aktuelle besondere Angebote des Cafés',
   fields: [
     {
-      name: 'name',
-      title: 'Name',
-      description: 'Name des speziellen Angebots',
-      type: 'string'
-    },
-    {
       name: 'description',
       title: 'Beschreibung',
       description: 'Beschreibung des speziellen Angebots',
